@@ -24,8 +24,13 @@ Step 3: Raise your Pokemon. If you see one of there conditions start to rise pre
 ## TECHNOLOGIES USES
 
 JAVASCRIPT
+
 JQUERY
+
 HTML/CSS
+
 ## FAVORITE CODE SNIPPETS 
+
 https://user-images.githubusercontent.com/66657472/94397031-ef900200-0117-11eb-9349-109aa8308537.png
+
 https://user-images.githubusercontent.com/66657472/94397035-f0289880-0117-11eb-92a3-51add591a662.png
