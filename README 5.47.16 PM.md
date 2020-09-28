@@ -1,14 +1,14 @@
-# PROJECT TITLE
-TomaGotta
+# PROJECT 0
+## TomaGotta
  Catch Em All!!
 
   Raise your choice of your favorite Gen 1 starter pokemon, make sure they get enough food, water, and training or they might DIE. If you get to level 40 YOU WIN. Play with and evolve you favorite pokemon.
 
 ## ScreenShots
 
-![wireframe1](https://user-images.githubusercontent.com/66657472/94397040-f28af280-0117-11eb-8319-070614f7f6c7.png)
+![SCREENSHOT1](https://user-images.githubusercontent.com/66657472/94397040-f28af280-0117-11eb-8319-070614f7f6c7.png)
 
-![wireframe2](https://user-images.githubusercontent.com/66657472/94397037-f159c580-0117-11eb-9050-9b7148e20e23.png)
+![SCREENSHOT2](https://user-images.githubusercontent.com/66657472/94397037-f159c580-0117-11eb-9050-9b7148e20e23.png)
 
 ## HOW TO PLAY 
 
@@ -30,6 +30,7 @@ JQUERY
 HTML/CSS
 
 ## WIREFRAMES 
+![WIREFRAME](<img width="713" alt="Screen Shot 2020-09-28 at 1 05 07 PM" src="https://user-images.githubusercontent.com/66657472/94480519-4387fe80-018b-11eb-8237-6f976847d04a.png">)
 
 ## FAVORITE CODE SNIPPETS 
 
