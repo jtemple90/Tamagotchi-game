@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+/*  ------------BODY-------------- */
+
+body {
+    background:url('./background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+.reset {
+    position: absolute;
+    background: #6DD1C4;
+    box-shadow: i;
+    top: 5px;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;;
+    color: aliceblue;
+    margin: .5em;
+    font-size: 80px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;;
+    margin-bottom: 1em;
+}
+
+/* -----------------SELECT BOX--------------- */
+
+#select-name {
+    height:50px;
+    width: 350px;
+    font-size: larger;
+    text-align: center;
+    background: #6DD1C4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+
+
+/* ---------------START BUTTON----------------- */
+
+#start-button {
+    background-color: #A6CD70;
+    position: relative;
+    height: 50px;
+    width: 150px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 2px rgba(65, 64, 64, 0.4);
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;  
+    font-size: larger;
+}
+
+
+#start-button:hover {
+    border: 3px solid black; 
+    cursor: pointer; 
+    font-size: medium;
+    text-shadow: 2px 2px 2px rgba(65, 64, 64, 0.4);
+}
+
+/* ----------CONTAINER EGG-------------- */
+
+.container {
+    position: relative;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    border: 1px  black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background: radial-gradient(at 50%,red, red,rgb(238, 182, 114));
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+/* ----------------------SCREEN--------------- */
+
+.screen {
+    right: 3px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #A6CD70;
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    /* animation: lightsOff 3s ease-in; */
+}
+@keyframes lightsOff {
+    0% {background-color: #A6CD70;}
+    50% {background-color: black;}
+    100% {background-color: #A6CD70;}
+
+}
+.attributes {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 8px;
+    margin-bottom: 33px;
+    justify-content: space-evenly;
+    font-size: 14px;
+    background: gray;
+    width: 244px;
+    left: 5px;
+    border-bottom: 2px solid black;
+} 
+
+.avatar {
+    position: relative;
+    margin-left: 30px;
+    background-color: none;
+    top: 30px;
+
+
+}
+
+.userPokemon {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: justify;
+    align-content: center;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding: 1px;
+    width: 245px;
+    justify-content: space-evenly;
+    font-size: 14px;
+    background: gray ;
+    border-top: 2px solid black;
+}
+
+p {
+    font-size: large;
+    margin-right: 100px;
+}
+
+#level {
+   margin-top: 3px;
+   border: 1px;
+   align-self: flex-end;
+  
+}
+
+/* --------------------ACTION---------------------- */
+
+.actionBtns {
+    margin: 15px;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: larger;
+    margin-top: 2em;
+    width: 350px;
+    height: 90px;
+    justify-content: space-between;
+    outline: none;
+    
+   
+
+}
+.fas {
+    font-size: 30px;
+    width: 90px;
+    height: auto;
+    border: 1px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+#feed-button {
+    background-color: rgb(252,181,51);
+    border-radius: 50%; 
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+#sleep-button {
+    background-color: rgb(252,181,51);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: 4em;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    outline: none;;
+}
+
+
+#train-button {
+    background-color: rgb(252,181,51);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+
+/* =================POKEMON=============== */
+#avatar {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    /* transform: translateX(50px); */
+    animation: move 4s linear infinite;
+    animation-direction: normal;
+    
+}
+
+
+@keyframes move {
+    0% { transform: translateX(0) rotateY(0deg); }
+
+    33%{ transform: translateX(-30px) rotateY(0deg); }
+
+    34% { transform: rotateY( 180deg); }
+
+    66% { transform: translateX(80px) rotateY( 180deg); }
+
+    67% { transform: translateX(79px) rotateY(0deg); } 
+
+    100% { transform: translateX(0px) rotateY(0deg); }
+
+}
+
+
+/* =================PIKACHU================ */
+
+
+.pika {
+    position: absolute;
+    left:-250px;
+    bottom: 10px;
+    animation: run 5s linear infinite;
+}
+
+@keyframes run {
+
+    0% { transform: translateX(0) }
+
+    100% { transform: translateX(110vw) }
+
+}
+
+
+
+/* =================MOVE ME=============== */
+
+
+/* 
+#move-left {
+    background: none;
+    outline: none ;
+    height: 6em;
+}
+
+#move-up {
+    background: none;
+    outline: none ;
+    height: 6em;
+}
+
+#move-right {
+    background: none;
+    outline: none ;
+    height: 6em;
+}   */

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pokemon1/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script defer src="./script/app.js"></script>
+    <title>Tamagatchi</title>
+</head>
+<body>
+    <input class="reset" type="reset" value="Play Again?" onclick="window.location.reload()";>
+    <h1>TamaGotta</h1>
+<h2>Raise Ém All!</h2>
+    <select id="select-name" placeholder="Choose a Pokemon">
+         <option id="bulbasaur" value="Bulbasaur">Bulbasaur</option>
+        <option id="squirtle" value="Squirtle">Squirtle</option>
+        <option id="charmander" value="Charmander">Charmander</option>
+        <input type="submit" id="start-button" value="New Game" onclick="getName()"></input>
+    </select>
+
+  <h4><span id="timer">Time Remaining: 120</span></h4>
+  
+    <div class="container">
+        <section class="screen">
+            <div class="attributes">
+                <span id="hunger">Hunger:1</span>
+                <span id="sleep">Sleepiness:1</span>
+                <span id="bored">Boredem:1</span>
+            </div> 
+
+            <div class="avatar">
+                <img src="./css/8-bit-pokeball.png" id="avatar" width= "165px" height="165px" background= "none" alt="Tomo" >
+            </div>
+            <section class="userPokemon">
+                <p><span id="poke-name">Name</span></p>
+                <span id="level">Level: 5</span>
+            </section>
+
+        </section>
+
+            <section class="actionBtns">
+                <button type="submit" id="feed-button"><i class="fas fa-hamburger"></i></button>
+                <button type="submit" id="sleep-button" onclick=""><i class="fas fa-bed"></i></button>
+                <button type="submit" id="train-button"><i class="fas fa-dumbbell"></i></button>
+            </section>
+        
+    </div>
+
+<!-- LATER FOR WHEN YOU'RE STUCK AND WANT TO DO SOMETHING DIFFERENT-->
+    <!-- <section id="move-me">
+        <button id="move-left"><i class="fas fa-caret-left"></i></button>
+        <button id="move-up"><i class="fas fa-caret-up"></i></button>
+        <button id="move-right"><i class="fas fa-caret-right"></i></button>
+    </section> -->
+<div class="pika">
+    <img src="./css/pikachu-gif.gif" height="150px">
+</div>
+</body>
+</html>
