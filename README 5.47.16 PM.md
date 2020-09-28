@@ -1,6 +1,6 @@
 # PROJECT 0
-## TomaGotta
- Catch Em All!!
+## TamaGotta
+ ### Catch Em All!!
 
   Raise your choice of your favorite Gen 1 starter pokemon, make sure they get enough food, water, and training or they might DIE. If you get to level 40 YOU WIN. Play with and evolve you favorite pokemon.
 
