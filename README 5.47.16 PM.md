@@ -6,9 +6,9 @@ TomaGotta
 
 ## WireFrames
 
-https://user-images.githubusercontent.com/66657472/94397040-f28af280-0117-11eb-8319-070614f7f6c7.png
+![wireframe1](https://user-images.githubusercontent.com/66657472/94397040-f28af280-0117-11eb-8319-070614f7f6c7.png)
 
-https://user-images.githubusercontent.com/66657472/94397037-f159c580-0117-11eb-9050-9b7148e20e23.png
+![wireframe2](https://user-images.githubusercontent.com/66657472/94397037-f159c580-0117-11eb-9050-9b7148e20e23.png)
 
 ## HOW TO PLAY 
 
@@ -31,6 +31,6 @@ HTML/CSS
 
 ## FAVORITE CODE SNIPPETS 
 
-https://user-images.githubusercontent.com/66657472/94397031-ef900200-0117-11eb-9349-109aa8308537.png
+![css](https://user-images.githubusercontent.com/66657472/94397031-ef900200-0117-11eb-9349-109aa8308537.png)
 
-https://user-images.githubusercontent.com/66657472/94397035-f0289880-0117-11eb-92a3-51add591a662.png
+![javascript](https://user-images.githubusercontent.com/66657472/94397035-f0289880-0117-11eb-92a3-51add591a662.png)
