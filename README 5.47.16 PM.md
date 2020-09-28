@@ -4,7 +4,7 @@ TomaGotta
 
   Raise your choice of your favorite Gen 1 starter pokemon, make sure they get enough food, water, and training or they might DIE. If you get to level 40 YOU WIN. Play with and evolve you favorite pokemon.
 
-## WireFrames
+## ScreenShots
 
 ![wireframe1](https://user-images.githubusercontent.com/66657472/94397040-f28af280-0117-11eb-8319-070614f7f6c7.png)
 
@@ -28,6 +28,8 @@ JAVASCRIPT
 JQUERY
 
 HTML/CSS
+
+## WIREFRAMES 
 
 ## FAVORITE CODE SNIPPETS 
 
