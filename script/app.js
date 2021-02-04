@@ -274,7 +274,7 @@ const hungerLvl = function() {
         }
 
         selectedPokemon.hunger++;
-        $('#hunger').text(`Hunger: ${selectedPokemon.hunger}`);
+        $('#hunger').text(`Hp: ${selectedPokemon.hunger}`);
     }, 2200);
 
 };
@@ -292,7 +292,7 @@ const tiredLvl = function() {
         }
 
         selectedPokemon.tired++;
-        $('#sleep').text(`Sleepiness: ${selectedPokemon.tired}`);
+        $('#sleep').text(`Sl: ${selectedPokemon.tired}`);
     }, 1900);
 
 };
@@ -311,7 +311,7 @@ const boredLvl = function() {
         } 
         selectedPokemon.bored++;
         
-        $('#bored').text(`Boredom: ${selectedPokemon.bored}`);
+        $('#bored').text(`Bd: ${selectedPokemon.bored}`);
     }, 2500);
 
 };
@@ -329,7 +329,7 @@ const startTimer = function () {
         }
 
         time--; //Stop Counting
-        $('#timer').text(`Time Remaining: ${time}s`);
+        $('#timer').text(`Time Remaining: ${time}`);
     }, 1500);
 };
 
